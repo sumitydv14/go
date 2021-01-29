@@ -1,0 +1,223 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .header-content h1 {
+        font-size: 42px;
+    }
+    .box-color .col-md-3 {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    .sec-4-head h1 {
+        font-size: 32px;
+    }
+    .sec-5 .sec-5-head h1 {
+        font-size: 32px;
+    }
+    .sec-5-content h5 {
+        font-size: 22px;
+     
+    }
+
+    .contact-line::before {
+        display: none;
+    }
+
+    .contact-us h1 {
+        font-size: 36px;
+    }
+
+    .sec-5-content p {
+        font-size: 16px;
+    }
+
+    .sec-5-content .sec-5-price p span {
+        font-size: 36px;
+    }
+
+    .sec-5-content .sec-5-get a {
+        padding: 10px 20px;
+    }
+
+
+    .start-img_second img {
+        max-width: 80%;
+    }
+    .sec-4-content h5 {
+    
+        font-size: 22px;
+   
+    }
+    .navbar span {
+        color: #fff;
+    }
+
+    .box-color { 
+        transform: translate(0px ,-160px);
+      
+    }
+    .counter {
+        font-size: 40px;
+    }
+    .find-btn a {
+        padding: 10px 30px;
+   
+    }
+
+    .border-line::before {
+        content: '';
+        position: absolute;
+        border: 1px solid #65c502;
+        border-radius: 30px;
+        width: calc(100% - 5%);
+        height: calc(100% - 5%);
+        top: 2%;
+        left: 2%;
+        z-index: 1;
+    }
+
+    .sec-3-box img {
+        margin-top: 0px;
+        border-radius: 30px;
+    }
+
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  
+    .contact-line::before {
+        content: '';
+        position: absolute;
+        border: 1px solid #65c502;
+        width: calc(100% + 5%);
+        height: calc(100% - 8%);
+        top: 12%;
+        left: -3%;
+        z-index: 1;
+        border-radius: 30px;
+    }
+    .navbar-nav {
+        text-align: center;
+        background-color: #73d1063d;
+    }
+
+    .strat-img img {
+        max-width: 80%;
+    }
+    .box-color .col-md-3 {
+        border-bottom: 1px solid #fff;
+        border-right: none;
+    }
+    .navbar span {
+        color: #fff;
+    }
+    .sec-3-box img {
+        margin-top: -20px;
+        border-radius: 30px;
+    }
+    .border-line::before {
+        content: '';
+        position: absolute;
+        border: 1px solid #65c502;
+        border-radius: 30px;
+        width: calc(100% - 6%);
+        height: calc(100% - 10%);
+        top: 4%;
+        left: 3%;
+        z-index: 1;
+    }
+
+
+   
+    .header-content h1 {
+        font-size: 72px;
+        font-weight: 600;
+        font-family: var(--primary-font);
+        color: var(--main-color);
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .contact-line::before {
+        content: '';
+        position: absolute;
+        border: 1px solid #65c502;
+        width: calc(100% + 10%);
+        height: calc(100% - 20%);
+        top: 12%;
+        left: -26px;
+        z-index: 1;
+        
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background-color: #73d1063d;
+    }
+
+    .navbar span {
+        color: #fff;
+    }
+    .start-img_second img {
+        position: absolute;
+        border-radius: 50%;
+        top: 35%;
+        left: 20%;
+        max-width: 70%;
+        border: 2px solid #65c502;
+    }
+ 
+    .sec-5-content .sec-5-get a {
+        padding: 10px 21px;
+    }
+
+    .sec-5-content .sec-5-price p span {
+        font-size: 40px;
+    }
+    .sec-5-content {
+    
+        padding: 10px;
+    }
+
+    .sec-5-content p {
+        font-size: 18px;
+    }
+    .sec-5-content ul li span {
+      
+        margin-right: 0px;
+    }
+    .sec-5-content h5 {
+        font-size: 20px;
+     
+    }
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+    .start-img_second img {
+        max-width: 70% !important;
+    }
+    .strat-img img {
+        max-width: 100%;
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) { 
+
+    .start-img_second img {
+        max-width: 70% !important;
+        position: absolute;
+        top: 15%;
+        left: 16%;
+    }
+    .strat-img img {
+        max-width: 100%;
+    }
+  }
