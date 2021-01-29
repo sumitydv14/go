@@ -7,6 +7,12 @@
         border-right: none;
         border-bottom: 1px solid #fff;
     }
+    
+     .navbar-nav {
+        text-align: center;
+        background-color: #73d1063d;
+    }
+    
 
     .sec-4-head h1 {
         font-size: 32px;
